@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 from importlib.metadata import version
 
-project = 'Catlifier'
-copyright = '2023, Robin Mueller'
-author = 'Robin Mueller'
+project = "Catlifier"
+copyright = "2023, Robin Mueller"
+author = "Robin Mueller"
 # Use importlib.metadata API to extract version automatically
 version = release = version("catlifier")
 
@@ -28,19 +28,19 @@ extensions = [
 # configuration option.
 doctest_test_doctest_blocks = ""
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # Mapping for external packages
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
-    "crcmod": ("https://crcmod.sourceforge.net/", None)
+    "crcmod": ("https://crcmod.sourceforge.net/", None),
 }
 
-language = 'en'
+language = "en"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "sphinx_rtd_theme"
-html_static_path = ['_static']
+html_static_path = ["_static"]
