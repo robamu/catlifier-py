@@ -14,7 +14,6 @@ authors = [
 keywords = ["cats", "purr", "packaging"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
-    "License :: OSI Approved :: Apache Software License",
     "Natural Language :: English",
     "Operating System :: POSIX",
     "Operating System :: Microsoft :: Windows",
