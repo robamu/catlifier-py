@@ -22,5 +22,5 @@ class Catlifier:
     def uncatlify(cls, catlified_text: str) -> Catlifier:
         stripped_text = catlified_text.rstrip("🐈")
         instance = cls(stripped_text)
-        instance.crc_calculator.update(catlified_text)
+        instance.crc_calculator.update(catlified_text.encode())
         return instance
