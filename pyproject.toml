@@ -33,3 +33,6 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://github.com/robamu/catlifier"
+
+[tool.black]
+line-length = 100
